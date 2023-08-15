@@ -1,0 +1,80 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header{
+    text-align: center;
+    color: rgb(0, 221, 0);
+}
+
+header h1{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 30px;
+}
+
+header img{
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background-color: rgb(0, 221, 0);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 1%;
+}
+
+.border{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 5%;
+    padding-bottom: 7%;    
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.arrow::before{
+    content: "\21A6";
+}
+
+section input, section h2{
+    display: inline-block;
+    margin-bottom: 0%;
+}
+
+.medium{
+    background-color: rgb(250, 190, 80);
+    width: 350px;
+    height: 30px;
+    border-radius:5px;
+}
+
+.full{
+    background-color: rgb(45, 190, 45);
+    width: 610px;
+    height: 30px;
+    border-radius:5px;
+}
+
+.low{
+    background-color: rgb(194, 74, 74);
+    width: 140px;
+    height: 30px;
+    border-radius:5px;
+}
+
+section p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 15px;
+}
